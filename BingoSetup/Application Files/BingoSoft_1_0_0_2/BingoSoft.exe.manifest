@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BingoSoft.exe" version="1.0.0.2" publicKeyToken="3efbf2856c68c6db" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="untitled_0wf_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BingoSoft" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BingoSoft.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BingoSoft.exe" size="725480">
+      <assemblyIdentity name="BingoSoft" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LvwDGRuKf4bL2Uu64V6M37E1JU17ANiJGqzVQw6QWes=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BingoSoft.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="untitled_0wf_icon.ico" size="137278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vUB99z8MW7FQvZYQiq8L8d8+FPyOIMS9YFWO4lXSyd0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=YATINPATEL\Yatin Patel" issuerKeyHash="aa77c14497115f346cec5cfe097ebbeacc47f809" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>g9Qej4AeL7u1r2J/VpDf6wLuQL0jW0RoSVBUc2ZI1/o=</DigestValue></Reference></SignedInfo><SignatureValue>rIfOLkjEYE6s0CqOsHjWly1SdGdTHnBUbwpgOml0KgA8nt06FEFdCc+nocGjrEJV/qaHyO3qwuGiEn2YRXIy9c5qFJU1HPzW6XP0nJIhCmprbQzQp8ThXWmIbyBs091KAXlKL8E1LgUOHY2J+nPwCbm8niVyqXf1AB+q6m/4dkI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wd0lmIJXEXbAPl3E7BvSU/SKibQVmjnmyWDw+ppJUEqU4oBnRyDt1EJBiCrv8smdLfVnFAyl4KJw6RiHAlfYa8ocN+MkWSv9WUW/1IF6FU5hj9CLV0xrRJpw/koF69Plrkv7QDz1iWjdBhx4OWCgsq/2bw1rp9xdqt59AlUhIKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fad748667354504968445b23bd40ee02ebdf90567f62afb5bb2f1e808f1ed483" Description="" Url=""><as:assemblyIdentity name="BingoSoft.exe" version="1.0.0.2" publicKeyToken="3efbf2856c68c6db" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=YATINPATEL\Yatin Patel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iyg60g14Uv7OLlaN5LU2j8Ii/0INBg9edHUA+6Jm7iQ=</DigestValue></Reference></SignedInfo><SignatureValue>ivzobcpDcm+9TQlsq4ofwEgeH1tNE1r9i+P1IaSOyU6p+91Xi7SY0LQ5kMGKrvCBBHJ8x//xUIdEcIo7lPaiszurysJESYSZe480QYMtL2uWGawha/Tb1hhG93I8IrC3Ge1B83bk8lim33UGHxAnK1Frbz23oG1f3NudgdkTPsQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wd0lmIJXEXbAPl3E7BvSU/SKibQVmjnmyWDw+ppJUEqU4oBnRyDt1EJBiCrv8smdLfVnFAyl4KJw6RiHAlfYa8ocN+MkWSv9WUW/1IF6FU5hj9CLV0xrRJpw/koF69Plrkv7QDz1iWjdBhx4OWCgsq/2bw1rp9xdqt59AlUhIKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQF1pT652207RPTkXZH7WeAzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAWQBBAFQASQBOAFAAQQBUAEUATABcAFkAYQB0AGkAbgAgAFAAYQB0AGUAbDAeFw0xODAxMjAyMDM5NDZaFw0xOTAxMjEwMjM5NDZaMDcxNTAzBgNVBAMeLABZAEEAVABJAE4AUABBAFQARQBMAFwAWQBhAHQAaQBuACAAUABhAHQAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDB3SWYglcRdsA+XcTsG9JT9IqJtBWaOebJYPD6mklQSpTigGdHIO3UQkGIKu/yyZ0t9WcUDKXgonDpGIcCV9hryhw34yRZK/1ZRb/UgXoVTmGP0ItXTGtEmnD+SgXr0+WuS/tAPPWJaN0GHHg5YKCyr/ZvDWun3F2q3n0CVSEgoQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADhZEDEiComc1k5StRdBWZBdxxctdLH+rpAns1obHfUDnlELUzLE7tJk2kXf+D+cw2SOJV09JkK4lDRxUi9p1FV/ME/gG33dwFOfj5ASMJr0AjiUqozprXVJFB2Xfe3ldwU87p6NOguAAxnE7joiAg0+S/y81UzVYqtmOGSSEPHs</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
